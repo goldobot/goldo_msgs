@@ -1,0 +1,6 @@
+Vector2D position
+float32 yaw
+float32 speed
+float32 yaw_rate
+float32 acceleration
+float32 angular_acceleration
