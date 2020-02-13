@@ -50,8 +50,10 @@ find_package(catkin REQUIRED COMPONENTS
 # Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  OdometryParameters.msg
   Vector2D.msg
   RobotPose.msg
+  Trajectory.msg
 )
 
 ## Generate services in the 'srv' folder

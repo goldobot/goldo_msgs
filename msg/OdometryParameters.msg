@@ -1,0 +1,6 @@
+float32 dist_per_count_left
+float32 dist_per_count_right
+float32 wheel_spacing
+float32 update_period
+float32 speed_filter_period
+uint16 encoder_period
