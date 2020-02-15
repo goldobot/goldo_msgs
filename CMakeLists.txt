@@ -54,6 +54,7 @@ add_message_files(
   Vector2D.msg
   RobotPose.msg
   Trajectory.msg
+  PointCloudXY.msg
 )
 
 ## Generate services in the 'srv' folder
