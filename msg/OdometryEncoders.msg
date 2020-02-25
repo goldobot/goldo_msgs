@@ -1,0 +1,2 @@
+uint32 left_count
+uint32 right_count
