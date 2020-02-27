@@ -61,9 +61,12 @@ add_message_files(
 add_service_files(
   FILES
   SetUInt32.srv
+  SetFloat32.srv
   SetOdometryParameters.srv
   SetBool.srv
   GetOdometryParameters.srv
+  MotorsSetPwm.srv
+  PropulsionPointTo.srv
 )
 
 ## Generate actions in the 'action' folder
