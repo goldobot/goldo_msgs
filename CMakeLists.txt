@@ -67,6 +67,8 @@ add_service_files(
   GetOdometryParameters.srv
   MotorsSetPwm.srv
   PropulsionPointTo.srv
+  PropulsionMoveTo.srv
+  PropulsionExecuteTrajectory.srv
 )
 
 ## Generate actions in the 'action' folder
