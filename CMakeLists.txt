@@ -55,6 +55,11 @@ add_message_files(
   RobotPose.msg
   Trajectory.msg
   PointCloudXY.msg
+  Polygon.msg
+  Polygons.msg
+  Marker.msg
+  Markers.msg
+  PIDConfig.msg
 )
 
 ## Generate services in the 'srv' folder
