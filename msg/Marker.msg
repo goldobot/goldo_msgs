@@ -1,4 +1,4 @@
 string id
-uint32 type
+uint8 type
 Vector2D position
 float32 yaw

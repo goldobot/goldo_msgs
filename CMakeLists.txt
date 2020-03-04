@@ -60,6 +60,7 @@ add_message_files(
   Marker.msg
   Markers.msg
   PIDConfig.msg
+  MatchState.msg
 )
 
 ## Generate services in the 'srv' folder
