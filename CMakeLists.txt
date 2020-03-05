@@ -50,7 +50,9 @@ find_package(catkin REQUIRED COMPONENTS
 # Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  MotorsPwm.msg
   OdometryParameters.msg
+  OdometryEncoders.msg
   Vector2D.msg
   RobotPose.msg
   Trajectory.msg
@@ -75,6 +77,8 @@ add_service_files(
   PropulsionPointTo.srv
   PropulsionMoveTo.srv
   PropulsionExecuteTrajectory.srv
+  PropulsionSetTrajectory.srv
+  PropulsionSetTargetSpeed.srv
 )
 
 ## Generate actions in the 'action' folder
